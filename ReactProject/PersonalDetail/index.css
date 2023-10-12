@@ -1,0 +1,166 @@
+body, html{
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    background-color: #191A1E;
+    border: 5px solid white;
+    border-radius: 5px;
+
+}
+
+.my-div {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Styles for screens larger than 768px */
+  @media screen and (min-width: 768px) {
+    .my-div {
+      width: 70%;
+      padding: 30px;
+    }
+  }
+  
+  /* Styles for screens larger than 1200px */
+  @media screen and (min-width: 1200px) {
+    .my-div {
+      width: 50%;
+      padding: 40px;
+    }
+  }
+
+
+.UncleBola-Pics{
+    width: 250px;
+   
+
+}
+
+.container1{
+    display: grid;
+  place-items: center;
+}
+
+.name{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+}
+
+.title{
+    margin-top: 0px;
+    text-align: center;
+    color: orange;
+}
+
+.site{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 1px;
+}
+
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.button1{
+    width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 2px 4px;
+  font-size: 15px;
+  box-shadow: none;
+  outline: none;
+  margin-right: 15px;
+}
+
+.button2{
+    width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 2px 4px;
+  font-size: 15px;
+  box-shadow: none;
+  outline: none;
+  background-color: #5674A6;
+  color: aliceblue;
+
+}
+
+.BolaContainer{
+    display: grid;
+    place-items: center;
+}
+
+.topic1{
+text-align: center;
+justify-content: center;
+margin-right: 220px;
+color: aliceblue;
+margin-top: 30px;
+margin-bottom: 0px;
+}
+
+.breif{
+  
+  color: aliceblue;
+    max-width: 280px;
+    margin-top: 2px;
+    font-weight: 100;
+    font-size: 10px;
+
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topic2{
+    text-align: center;
+    justify-content: center;
+    margin-right: 200px;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    }
+
+    .interest{
+        color: aliceblue;
+    max-width: 280px;
+    margin-top: 2px;
+    font-weight: 100;
+    font-size: 10px;
+
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .twitter-logo{
+        width: 40px;
+        color: white
+    }
+
+    .facebook-logo{
+        width: 40px
+    }
+        
+    .insta-logo{
+        width: 40px
+    }
+
+    .github-logo{
+        width: 40px
+    }
