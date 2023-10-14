@@ -1,4 +1,25 @@
 function Air() {
+    console.log(data)
+    const CardElements = data.map(card => {
+             return <Card 
+             key={card.id} // id is always unique that is why
+            card={card}
+            />
+
+            {/* <Card 
+             key={card.id} // id is always unique that is why
+            img={card.coverImg}
+            rating={card.stats.rating}
+            reviewCount={card.stats.reviewCount}
+            location={card.location}
+            title={card.title}
+            price={card.price}
+            openSpots={card.openSpots}
+            /> */}
+
+            })
+
+
     return(
     
     <div>
@@ -7,17 +28,9 @@ function Air() {
           <Navbar />
              
      <Hero />
-        <Card
-        img="airswim.jpeg"
-        alt="swiming woman"
-        rating="5.0"
-        reviewCount="(6)"
-        country="Turkey"
-        title="Life Lesson with Katie Zaferess"
-        price="146"/>
-
-
-   
+   <section className="cards-list">
+    {CardElements}
+    </section> 
     
      
     
@@ -26,3 +39,18 @@ function Air() {
 }
 
 ReactDOM.render(<Air />, document.getElementById("root"))
+
+
+
+// function App() {
+//     const JokeElements = JokeData.map(joke => {
+//      return <Joke setup={joke.setup} punchline={joke.punchline} />
+//     })
+//      return(
+//      <div >
+//          {JokeElements}
+//      </div> 
+//      )
+//  }
+ 
+//  ReactDOM.render(<App />, document.getElementById("root"))

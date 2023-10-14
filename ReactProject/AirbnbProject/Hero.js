@@ -4,11 +4,11 @@ window.Hero = function Hero(){
 <img 
 src="./images/airpics.jpeg"
 alt="pics of airbnb display"
-className="airpicss"
+className="hero--photo"
 />
 
-<h1 className="heroHeader">online Experience</h1>
-<p className="heroText">Join unique interactive activites led by one-of-a-kind hosts-all without leaving home.</p>
+<h1 className="hero--header">online Experience</h1>
+<p className="hero--text">Join unique interactive activites led by one-of-a-kind hosts-all without leaving home.</p>
 </section>
  )
 }
