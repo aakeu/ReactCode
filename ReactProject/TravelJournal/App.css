@@ -56,11 +56,13 @@
 .location--Container{
 display: flex;
 
+
 }
 
 .location--Container > h4 {
   margin-right: 10px;
   color: gray;
+  margin-top: -60px;
   
   
  
@@ -68,18 +70,30 @@ display: flex;
 
 .location--Container > p{
 font-size: 13px;
-margin-top: 22px;
+margin-top: -60px;
+
 
 }
 
 .location--Container > p > a {
   color: gray; /* or whatever color you like */
+ 
+  
 }
 
 .location--Name{
-
+margin-top: -20px;
 }
 
 .Travel--Date{
+margin-bottom: 3px;
+font-weight: bold;
+font-size: 13px;
+}
 
+.Travel--Description{
+margin-top: 3px;
+font-weight: lighter;
+font-size: 14px;
+color: gray;
 }

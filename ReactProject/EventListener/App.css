@@ -1,0 +1,9 @@
+img {
+    transition: filter 0.3s ease;
+  }
+
+
+
+div > div > img:hover{
+    filter: brightness(50%);
+}

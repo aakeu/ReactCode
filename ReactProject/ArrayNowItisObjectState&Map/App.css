@@ -1,0 +1,11 @@
+
+.card--image{
+  border-radius: 50%;
+    height: 250px;
+    width: auto;
+}
+
+.card--favorite{
+    height: 30px;
+    width: auto;
+}

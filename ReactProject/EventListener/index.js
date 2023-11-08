@@ -5,11 +5,17 @@ window.Index = function Index(props) {
         console.log("I was clicked!")
     }
 
+    function handleOnMouseOver()
+    {
+        console.log("Bola kept the MouseOver")
+    }
+
     return(
         <div>
             <div>
             <img 
             src="./images/ocean.jpeg"
+            onMouseOver={handleOnMouseOver}
             alt="place pics"
             className=""
             />
